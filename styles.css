@@ -24,7 +24,7 @@
   align-self: flex-end;
 }
 
-button {
+.downloadbtns {
   background-color: rgb(243, 54, 126);
   padding: 5px 20px;
   margin-left: 10px;
@@ -61,4 +61,29 @@ p {
     width: 20%;
     height: 250px;
     flex-grow: 1;
+}
+
+ .taggallery{
+  margin-bottom: 40px;
+ }
+
+.tags {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.tagbtns {
+  border-radius: 25px;
+  border: 4px solid rgb(98, 98, 207);
+  padding: 10px 35px;
+  background-color: transparent;
+  font-weight: bold;
+  color: rgb(98, 98, 207);
+}
+
+.tagbtns.active {
+  color: white;
+  background-color: rgb(98, 98, 207);
 }
