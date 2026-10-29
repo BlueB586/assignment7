@@ -27,6 +27,7 @@
 button {
   background-color: rgb(243, 54, 126);
   padding: 5px 20px;
+  margin-left: 10px;
   border-radius: 30px;
   border: none;
   color: white;
@@ -53,7 +54,6 @@ p {
 .galleryimages {
     display:flex;
     justify-content: center;
-    gap: 1px;
 }
 
 
